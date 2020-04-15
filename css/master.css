@@ -195,8 +195,7 @@ header {
 
 /* -------------------------------------------------------------green part styles */
 
-
-.green_container .wrapper{
+.green_container .wrapper {
   text-align: center;
 }
 
@@ -322,29 +321,32 @@ header {
 
 
 /* ------------------------------------------------------- guides container */
-.guides-container .wrapper{
+.guides-container .wrapper {
   display: flex;
 }
 
-.guide-card-container{
+.guide-card-container {
   flex: 0 1 calc(100% / 3);
 }
 
-.newsletter-wrapper{
+.newsletter-wrapper {
   text-align: center;
 }
 
-.newsletter-wrapper .image{
-margin: 0 auto;
+.newsletter-wrapper .image {
+  margin: 0 auto;
 }
+
 /* ------------------------------------------------------- end of guides container */
 
 /* ------------------------------------------------------- footer styles */
-.footer{
+.footer {
   text-align: center;
 }
 
-.long-footer-nav-list ul li, .short-footer-nav-list ul li{
+.long-footer-nav-list ul li,
+.short-footer-nav-list ul li {
   display: inline-block;
 }
+
 /* ------------------------------------------------------- end of footer styles */
