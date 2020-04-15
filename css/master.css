@@ -295,3 +295,22 @@ header {
   background: black;
   height: 190px;
 }
+
+
+/* ------------------------------------------------------- guides container */
+.guides-container .wrapper{
+  display: flex;
+}
+
+.guide-card-container{
+  flex: 0 1 calc(100% / 3);
+}
+
+.newsletter-wrapper{
+  text-align: center;
+}
+
+.newsletter-wrapper .image{
+margin: 0 auto;
+}
+/* ------------------------------------------------------- end of guides container */
