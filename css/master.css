@@ -142,7 +142,7 @@ header {
 
 .container-center-one {
   grid-area: cco;
-  background-color: rgb(112, 128, 144);
+  background-color: black;
 }
 
 .container-center-two {
@@ -167,7 +167,7 @@ header {
 
 .container-bottom-three {
   grid-area: cbth;
-  background-color: rgb(112, 128, 144);
+  background-color: black;
 }
 
 .article-link {
