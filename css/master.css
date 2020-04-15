@@ -175,7 +175,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(47, 79, 79);
+  background-color: rgb(169, 169, 169);
   height: 100px;
 }
 
@@ -190,3 +190,108 @@ header {
 
 
 /* -------------------------------------------------------------end of green part styles */
+
+.panel {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(192, 192, 192);
+}
+
+.panel-container {
+  margin-top: 100px;
+  width: 600px;
+}
+
+.community {
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "pc pc"
+    "cltl cltr"
+    "clcl clcr"
+    "clbl clbr"
+    "al al";
+}
+
+.panel-community {
+  grid-area: pc;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(169, 169, 169);
+}
+
+.persone-image {
+  width: 20%;
+  background-color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.persone-week {
+  width: 60%;
+}
+
+.community-link-top-left {
+  grid-area: cltl;
+  background-color: rgb(169, 169, 169);
+}
+
+.community-link-top-right {
+  grid-area: cltr;
+  background-color: rgb(169, 169, 169);
+}
+
+.community-link-center-left {
+  grid-area: clcl;
+  background-color: rgb(169, 169, 169);
+}
+
+.community-link-center-right {
+  grid-area: clcr;
+  background-color: rgb(169, 169, 169);
+}
+
+.community-link-bottom-left {
+  grid-area: clbl;
+  background-color: rgb(169, 169, 169);
+}
+
+.community-link-bottom-right {
+  grid-area: clbr;
+  background-color: rgb(169, 169, 169);
+}
+
+.community-link-top-left,
+.community-link-top-right,
+.community-link-center-left,
+.community-link-center-right,
+.community-link-bottom-left,
+.community-link-bottom-right {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+}
+
+.community-highlight {
+  width: 50%;
+}
+
+.featured-design {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  background-color: rgb(169, 169, 169);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  width: 20%;
+  background: black;
+  height: 190px;
+}
