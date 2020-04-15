@@ -4,7 +4,7 @@ Heat Map of the web page at smashingmagazine.com
 The job is to create a grayscale heat map of the website that indicates which elements have the greatest weight in the visual hierarchy. For inspiration, check out this image from vanseodesign.com which compares a site layout with no differentiation on the left to one with a thoughtful hierarchy on the right.
 
 # Screenshot
-![Image description]('/img/screenshot.png')
+![Image description](https://github.com/asiimwedismas/smashing-magazine/blob/development/img/screenshot.png)
 
 
 # Built with
@@ -12,7 +12,7 @@ The job is to create a grayscale heat map of the website that indicates which el
 - CSS
 
 # Live Demo
-[Live demo]()
+[Live demo](https://rawcdn.githack.com/asiimwedismas/smashing-magazine/c25e7753d8af3dd013ad4d78caecad68d8d6b981/index.html)
 
 # Authors
 Rindra Josia
