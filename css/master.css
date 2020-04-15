@@ -314,3 +314,13 @@ header {
 margin: 0 auto;
 }
 /* ------------------------------------------------------- end of guides container */
+
+/* ------------------------------------------------------- footer styles */
+.footer{
+  text-align: center;
+}
+
+.long-footer-nav-list ul li, .short-footer-nav-list ul li{
+  display: inline-block;
+}
+/* ------------------------------------------------------- end of footer styles */
