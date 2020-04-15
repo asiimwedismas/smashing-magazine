@@ -1,3 +1,26 @@
+h1,
+.author {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.author {
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+.quote {
+  font-size: 1em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+}
+
 .guide-card-small-head{}
 
 .guide-card-title{}
