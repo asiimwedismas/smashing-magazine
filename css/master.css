@@ -192,14 +192,11 @@ header {
   font-size: 20px;
 }
 
-
 /* -------------------------------------------------------------green part styles */
 
 .green_container .wrapper {
   text-align: center;
 }
-
-
 
 /* -------------------------------------------------------------end of green part styles */
 
@@ -319,14 +316,27 @@ header {
   height: 190px;
 }
 
-
 /* ------------------------------------------------------- guides container */
 .guides-container .wrapper {
   display: flex;
 }
 
+.guides-container {
+  margin: 40px auto;
+  width: 90%;
+}
+
 .guide-card-container {
+  padding: 20px;
+  min-height: 300px;
   flex: 0 1 calc(100% / 3);
+  text-align: center;
+  background-color: darkgray;
+}
+
+.newsletter-container {
+  padding: 20px;
+  background-color: gray;
 }
 
 .newsletter-wrapper {
@@ -341,7 +351,10 @@ header {
 
 /* ------------------------------------------------------- footer styles */
 .footer {
+  width: 90%;
+  margin: 0 auto;
   text-align: center;
+  background-color: rgb(179, 179, 179);
 }
 
 .long-footer-nav-list ul li,
