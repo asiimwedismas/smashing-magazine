@@ -12,7 +12,7 @@ The job is to create a grayscale heat map of the website that indicates which el
 - CSS
 
 # Live Demo
-[Live demo](https://rawcdn.githack.com/asiimwedismas/smashing-magazine/c25e7753d8af3dd013ad4d78caecad68d8d6b981/index.html)
+[Live demo](https://rawcdn.githack.com/asiimwedismas/smashing-magazine/ecf6aece4bd69d2e464360a249205c9870c44458/index.html)
 
 # Authors
 Rindra Josia
