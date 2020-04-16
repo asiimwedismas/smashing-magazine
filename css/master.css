@@ -15,29 +15,34 @@ header {
 }
 
 .nav-top-left,
+.nav-top-right,
+.nav-top-center {
+  background-color: rgb(220, 220, 220);
+}
+
+.nav-top-left,
 .nav-top-right {
   width: 15%;
   height: 100px;
-  background-color: rgb(220, 220, 220);
   text-align: center;
 }
 
 .nav-top-center {
   width: 67%;
   height: 130px;
-  background-color: rgb(220, 220, 220);
 }
 
 .nav-top-center ul {
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: space-around;
+  float: left;
 }
 
 .nav-top-center ul li {
   list-style: none;
   text-align: center;
+  float: right;
+  margin-left: 30px;
 }
 
 .main-first {
@@ -71,24 +76,49 @@ header {
   text-align: center;
 }
 
+.community-link-top-left,
+.community-link-top-right,
+.community-link-center-left,
+.community-link-center-right,
+.community-link-bottom-left,
+.community-link-bottom-right,
+.article-top-left,
+.article-bottom-right,
+.container-top-one,
+.container-center-two,
+.container-bottom-one,
+.panel-community,
+.featured-design {
+  background-color: rgb(169, 169, 169);
+}
+
+.article-top-right,
+.article-bottom-left,
+.container-top-two,
+.container-center-three,
+.container-bottom-two {
+  background-color: rgb(128, 128, 128);
+}
+
+.container,
+.panel {
+  background-color: rgb(192, 192, 192);
+}
+
 .article-top-left {
   grid-area: atf;
-  background-color: rgb(169, 169, 169);
 }
 
 .article-top-right {
   grid-area: atr;
-  background-color: rgb(128, 128, 128);
 }
 
 .article-bottom-left {
   grid-area: abl;
-  background-color: rgb(128, 128, 128);
 }
 
 .article-bottom-right {
   grid-area: abr;
-  background-color: rgb(169, 169, 169);
 }
 
 .content {
@@ -112,7 +142,6 @@ header {
 
 .container {
   margin-top: 10px;
-  background-color: rgb(192, 192, 192);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas:
@@ -140,12 +169,10 @@ header {
 
 .container-top-one {
   grid-area: cto;
-  background-color: rgb(169, 169, 169);
 }
 
 .container-top-two {
   grid-area: ctt;
-  background-color: rgb(128, 128, 128);
 }
 
 .container-top-three {
@@ -160,22 +187,18 @@ header {
 
 .container-center-two {
   grid-area: cct;
-  background-color: rgb(169, 169, 169);
 }
 
 .container-center-three {
   grid-area: ccth;
-  background-color: rgb(128, 128, 128);
 }
 
 .container-bottom-one {
   grid-area: cbo;
-  background-color: rgb(169, 169, 169);
 }
 
 .container-bottom-two {
   grid-area: cbt;
-  background-color: rgb(128, 128, 128);
 }
 
 .container-bottom-three {
@@ -205,7 +228,6 @@ header {
   height: 700px;
   display: flex;
   justify-content: center;
-  background-color: rgb(192, 192, 192);
 }
 
 .panel-container {
@@ -231,7 +253,6 @@ header {
   height: 200px;
   display: flex;
   justify-content: center;
-  background-color: rgb(169, 169, 169);
 }
 
 .persone-image {
@@ -275,7 +296,6 @@ header {
 .community-link-center-right,
 .community-link-bottom-left,
 .community-link-bottom-right {
-  background-color: rgb(169, 169, 169);
   display: flex;
   justify-content: center;
   height: 250px;
@@ -299,7 +319,6 @@ header {
   width: 90%;
   height: 200px;
   margin: auto;
-  background-color: rgb(169, 169, 169);
   display: flex;
   justify-content: space-between;
   align-items: center;
