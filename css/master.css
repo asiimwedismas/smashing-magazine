@@ -247,32 +247,26 @@ header {
 
 .community-link-top-left {
   grid-area: cltl;
-  background-color: rgb(169, 169, 169);
 }
 
 .community-link-top-right {
   grid-area: cltr;
-  background-color: rgb(169, 169, 169);
 }
 
 .community-link-center-left {
   grid-area: clcl;
-  background-color: rgb(169, 169, 169);
 }
 
 .community-link-center-right {
   grid-area: clcr;
-  background-color: rgb(169, 169, 169);
 }
 
 .community-link-bottom-left {
   grid-area: clbl;
-  background-color: rgb(169, 169, 169);
 }
 
 .community-link-bottom-right {
   grid-area: clbr;
-  background-color: rgb(169, 169, 169);
 }
 
 .community-link-top-left,
@@ -281,6 +275,7 @@ header {
 .community-link-center-right,
 .community-link-bottom-left,
 .community-link-bottom-right {
+  background-color: rgb(169, 169, 169);
   display: flex;
   justify-content: center;
   height: 250px;
